@@ -1,0 +1,14 @@
+#main-body ,p{
+    text-align: justify;
+    font-size:15pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.more-info{
+    background-color:azure;
+}
+#main-body{
+    background-color:white;
+}
+h2, h3{
+    text-align:right;
+}
