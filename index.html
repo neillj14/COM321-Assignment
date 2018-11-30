@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="assets/images/favicon.png" >
+    <link rel="icon" href="assets/images/favicon.png">
     <link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
@@ -14,42 +14,72 @@
     <nav>
         <div class="nav-wrapper black">
             <a href="#" class="center brand-logo">The Theatre</a>
+            <a href="#" data-target="mobile-menu" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
             <ul id="nav-mobile" class=" right hide-on-med-and-down">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="shows.html">Shows</a></li>
-                <li><a href="seating-plan.html">Seating Plan</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li class="active">
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="shows.html">Shows</a>
+                </li>
+                <li>
+                    <a href="seating-plan.html">Seating Plan</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
             </ul>
         </div>
     </nav>
-
+    <!--Hamburger sidenav for mobile-->
+    <ul id="mobile-menu" class="sidenav">
+        <li class="active">
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="about.html">About</a>
+        </li>
+        <li>
+            <a href="shows.html">Shows</a>
+        </li>
+        <li>
+            <a href="seating-plan.html">Seating Plan</a>
+        </li>
+        <li>
+            <a href="contact.html">Contact</a>
+        </li>
+    </ul>
     <!--Content-->
     <div id="main-body">
-        <div class="container">
+        <div>
             <div class="teaser-table section">
                 <h1 class="center">What's On</h1>
                 <div class="row">
                     <div class="teaser">
-                        <div class="col s1 valign-wrapper">
-                            <img src="assets/images/home/onlyFoolsAndHorses.jpg" alt="Only Fools and Horses - The Musical"
-                                width="150px" height="150px">
+                        <div class="col s1">
+                            <img src="assets/images/home/onlyFoolsAndHorses.jpg" alt="Only Fools and Horses - The Musical" width=100%>
                         </div>
                         <div class="col s3">
-                            <h3>Only Fools and Horses <br>- The Musical</h2>
+                            <h3>Only Fools and Horses
+                                <br>- The Musical</h2>
                         </div>
                     </div>
                     <div class="teaser">
-                        <div class="col s1 valign-wrapper">
-                            <img src="assets/images/home/trueWest.jpg" alt="True West" width="150px" height="150px">
+                        <div class="col s1">
+                            <img src="assets/images/home/trueWest.jpg" alt="True West" width=100%>
                         </div>
                         <div class="col s3">
                             <h2>True West</h2>
                         </div>
                     </div>
                     <div class="teaser">
-                        <div class="col s1 valign-wrapper">
-                            <img src="assets/images/home/home.jpg" alt="Home, I'm Darling" width="150px" height="150px">
+                        <div class="col s1">
+                            <img src="assets/images/home/home.jpg" alt="Home, I'm Darling" width=100%>
                         </div>
                         <div class="col s3">
                             <h2>Home, I'm Darling</h2>
@@ -57,45 +87,31 @@
                     </div>
                 </div>
                 <div class="row">
-                    <p class="col s4 truncate">A stage adaptation of the classic British sitcom Only Fools and Horses,
-                        co-written by
-                        Paul Whitehouse, is set to open in London's West End at the Theatre Royal Haymarket in 2019.
+                    <p class="col s4 truncate text-flow">A stage adaptation of the classic British sitcom Only Fools and Horses, co-written by Paul Whitehouse,
+                        is set to open in London's West End at the Theatre Royal Haymarket in 2019.
                     </p>
-                    <p class="col s4 truncate">‘Shepard's masterwork. It tells us a truth, as glimpsed by a 37 year old
-                        genius.’ New
-                        York Post ‘Sam Shepard is contemporary American drama, True West is contemporary America’ The
-                        Guardian
-                        ‘Shepard’s most accessible play. Scaldingly funny’ Variety Kit Harington (Game of Thrones) and
-                        Johnny
-                        Flynn (Beast, Genius) star as warring brothers Austin and Lee in the West End Premiere of
-                        Pulitzer
-                        Prize-winner Sam Shepard’s ferociously funny, modern classic, True West. Austin is working on a
-                        movie
-                        script that he has sold to producer Saul Kimmer when Lee stumbles back in to his life. Never
-                        content to
-                        watch from the sidelines he pitches his own idea to Kimmer, an action which has far reaching
-                        consequences... Set in the searing heat of the Californian desert this critically acclaimed
-                        drama
-                        pits
-                        brother against brother as a family tears itself apart, exposing the cracks in the American
-                        Dream.</p>
-                    <p class="col s4 truncate">Starring Katherine Parkinson, Laura Wade's new play about a woman who
-                        aims
-                        to live an
-                        idealistic 1950s life as a housewife, will transfer to the West End's Duke of York's Theatre in
-                        January
-                        2019. Tickets will go on sale on 9th November.</p>
+                    <p class="col s4 truncate text-flow">Shepard's masterwork. It tells us a truth, as glimpsed by a 37 year old genius.’ New York Post ‘Sam
+                        Shepard 
+                    </p>
+                    <p class="col s4 truncate text-flow">Starring Katherine Parkinson, Laura Wade's new play about a woman who aims to live an idealistic 1950s
+                        life as a housewife, will transfer to the West End's Duke of York's Theatre in January 2019. Tickets
+                        will go on sale on 9th November.</p>
                 </div>
             </div>
         </div>
         <div class="more-info section">
             <div class="container">
-                <h1>Welcome to <i>The Theatre<i></h1>
+                <h1 class="text-flow">Welcome to
+                    <i>The Theatre
+                        <i>
+                </h1>
             </div>
         </div>
     </div>
     <!--Load javascript here for efficiency-->
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 
 </html>
