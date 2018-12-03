@@ -1,14 +1,29 @@
 #main-body ,p{
     text-align: justify;
     font-size:15pt;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .more-info{
-    background-color:azure;
+    background-color:black;
+    color:white;
 }
 #main-body{
-    background-color:grey;
+    background-color:white;
 }
 h2, h3{
     text-align:left;
 }
+.teaser-section, 
+.teaser-section a,
+.teaser-section a:visited
+.other-pages, 
+.other-pages a,
+.other-pages a:visited{
+    background-color: white;
+    color:black;
+}
+.teaser-section a:hover,
+.other-pages a:hover{
+    color: grey;
+}
+
