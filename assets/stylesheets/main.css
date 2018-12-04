@@ -1,3 +1,8 @@
+/*
+    =============
+    Home
+    =============
+*/
 #main-body ,p{
     text-align: justify;
     font-size:15pt;
@@ -26,4 +31,25 @@ h2, h3{
 .other-pages a:hover{
     color: grey;
 }
-
+/*
+    =============
+    Booking
+    =============
+*/
+.blurb h2{
+    text-align: center;
+}
+.blurb a, .blurb a:visited{
+    color: black;
+    text-decoration:underline;
+}
+.blurb a:hover{
+    color: grey;
+}
+.book{
+    color:black;
+    background-color:white;
+}
+form{
+    color:black;
+}
