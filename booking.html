@@ -61,16 +61,59 @@
         <div id="main-body" class="container">
             <div class="blurb">
                 <h2>Book a Performance</h2>
-                <p class="flow-text">We're thrilled you would like to visit <i>The Theatre</i>, Fill out your
-                    information
-                    below and press submit
-                    to purchase online, if you have any problems you can <a href="contact.html">contact us</a> or
-                    purchase
-                    on
-                    premesis.</p>
+                <p class="flow-text">We're thrilled you would like to visit
+                    <i>The Theatre</i>, Fill out your information below and press submit to purchase online, if you have any
+                    problems you can
+                    <a href="contact.html">contact us</a> or purchase on premesis.
+                </p>
             </div>
             <div class="booking-form">
                 <form class="bookingForm" action="post">
+                    <div class="row">
+                        <div class="input-field col s4">
+                            <input placeholder="Name" type="text">
+                        </div>
+                        <div class="input-field col s3">
+                            <select>
+                                <option value="1"><span class="black-text">1</span></option>
+                                <option value="2"><span class="black-text">2</span></option>
+                                <option value="3"><span class="black-text">3</span></option>
+                                <option value="4"><span class="black-text">4</span></option>
+                                <option value="5"><span class="black-text">5</span></option>
+                            </select>
+                            <label>Quantity</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s7">
+                            <input placeholder="Email Address" type="email" class="validate">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s7">
+                            <input placeholder="Phone Number" type="tel" class="validate">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s7">
+                            <div class="center">
+                            <label>
+                                <input name="payPal" type="radio" checked/>
+                                <span>PayPal</span>
+                            </label>
+
+                            <label>
+                                <input name="creditCard" type="radio" />
+                                <span>Credit Card</span>
+                            </label>
+
+                            <label>
+                                <input name="visaDebit" type="radio" />
+                                <span>Visa Debit</span>
+                            </label>
+                            </div>
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>
@@ -86,10 +129,18 @@
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Menu</h5>
                     <ul>
-                        <li><a class="grey-text text-lighten-3" href="shows.html">Shows</a></li>
-                        <li><a class="grey-text text-lighten-3" href="about.html">About</a></li>
-                        <li><a class="grey-text text-lighten-3" href="contact.html">Contact</a></li>
-                        <li><a class="grey-text text-lighten-3" href="seating-plan.html">Seating</a></li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="shows.html">Shows</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="contact.html">Contact</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="seating-plan.html">Seating</a>
+                        </li>
                     </ul>
                 </div>
             </div>
