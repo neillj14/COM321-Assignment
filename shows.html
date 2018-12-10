@@ -2,12 +2,404 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
-    <title>Shows - The Theatre</title>
+	<link rel="icon" href="assets/images/favicon.png">
+	<link rel="images" href="assets/images/shows/9To5TheMusical.png">
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
+	<title>Shows - The Theatre</title>
+	<meta charset="utf-8">
+	<script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"></script>
+	<style>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 10px;
+    top: 10px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
 </head>
-
 <body>
+ <!--Top navbar-->
+    <header>
+        <nav>
+            <div class="nav-wrapper black">
+                <a href="#" class="center brand-logo">The Theatre</a>
+                <a href="#" data-target="mobile-menu" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul id="nav-mobile" class=" right hide-on-med-and-down">
+                    <li class="active">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="shows.html">Shows</a>
+                    </li>
+                    <li>
+                        <a href="seating-plan.html">Seating Plan</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--Hamburger sidenav for mobile-->
+        <ul id="mobile-menu" class="sidenav">
+            <li class="active">
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="shows.html">Shows</a>
+            </li>
+            <li>
+                <a href="seating-plan.html">Seating Plan</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </header>
+		  <!--Content-->
+    <main>
+        <div id="main-body">
+            <div>
+                <div class="container">
+                    <h2 class="center">Shows</h2> 
+					<p class="center">
+						We have a range of shows to offer you, so have a look around and see what you might like! 
+					</p>
+					<h2 class="center-left">Most Popular Shows</h2>
+						<div class="container/iframe">				
+							<!-- The Modal -->
+							<div id="myModal" class="modal">
+								<!-- Modal content -->
+								<div class="modal-content" id="a1">
+								<img src="assets/images/shows/9To5TheMusical.png" alt="9 to 5 The Musical">
+									<span class="close">&#215;</span>
+									<p><span>9 to 5 The Musical</span></p>
+									<p>
+										<br>9 to 5 the Musical
+										<br>Savoy Theatre
+										<br>Overview
+										<br>From 28 January 2019<br>
+										<br>Tumble outta' bed and stumble to Dolly Parton’s rip-roaring West End musical!
+										<br>9 to 5 the Musical is about to get down to business - with a strictly limited season at the West End's Savoy Theatre. 
+										<br>Starring Louise Redknapp, Amber Davies, Natalie McQueen, Bonnie Langford and Brian Conley, the smash-hit musical features an Oscar, Grammy and Tony award-nominated score by the Queen of Country herself, Dolly Parton.
+										<br>9 to 5 the Musical  tells the story of Doralee, Violet and Judy - three workmates pushed to boiling point by their sexist and egotistical boss. Concocting a plan to kidnap and turn the tables on their despicable supervisor, will the girls manage to reform their office - or will events unravel when the CEO pays an unexpected visit?
+										<br>Inspired by the cult film and brought to you by Dolly herself, this hilarious new West End production is about teaming up, standing up and taking care of business!
+										<br>Please note: Dolly Parton will not be appearing in this production<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<!-- Modal content -->
+								<div class="modal-content" id="a2">
+								<img src="assets/images/shows/betrayal.png" alt="Betrayal">
+									<span class="close">&#215;</span>
+									<p><span>Betrayal</span></p>
+									<p>
+										<br>Betrayal
+										<br>The Harold Pinter Theatre
+										<br>Overview<br>
+										<br>Golden Globe and Olivier Award winner Tom Hiddleston stars in the Jamie Lloyd 
+										<br>Company’s revival of Harold Pinter’s Betrayal, opening at London’s Harold Pinter Theatre 
+										<br>for a strictly limited 12 week season from 5 March 2019.<br>
+										<br>With poetic precision, rich humour and an extraordinary emotional force, Betrayal charts 
+										<br>a compelling seven-year romance, thrillingly captured in reverse chronological order. 
+										<br>Described as “the greatest, and the most moving, of all Pinter’s plays” (Daily Telegraph), this 
+										<br>production marks the culmination of the Jamie Lloyd Company’s ground-breaking Pinter at the Pinter season.<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<div class="modal-content" id="a3">
+								<img src="assets/images/shows/disneysTheLionKing.png" alt="Disney's The Lion King">
+									<span class="close">&#215;</span>
+									<p><span>Disney's The Lion King</span></p>
+									<p>
+										<br>Disney's The Lion King
+										<br>Lyceum Theatre
+										<br>Overview<br>
+										<br>Set against the majesty of the Serengeti Plains and to the evocative rhythms of Africa,
+										<br>Disney’s multi-award winning musical will redefine your expectations of the theatre.<br>
 
+										<br>Brilliantly reimagined by acclaimed director Julie Taymor, Disney’s beloved film has been
+										<br>transformed into a spectacular theatrical experience that explodes with glorious colours,
+										<br>stunning effects and enchanting music.<br>
+
+										<br>At its heart is the powerful and moving story of Simba – the epic adventure of his journey
+										<br>from wide-eyed cub to his destined role as the King of the Pridelands.<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<div class="modal-content" id="a4">
+								<img src="assets/images/shows/theBookOfMormon.png" alt="The Book Of Mormon">
+									<span class="close">&#215;</span>
+									<p><span>The Book Of Mormon</span></p>
+									<p>
+										<br>The Book Of Mormon
+										<br>Palace Theatre Manchester
+										<br>Overview<br>
+										<br>The New York Times calls it ‘The best musical of this century.’  The Washington Post says, 'It 
+										<br>is the kind of evening that restores your faith in musicals.’  And Entertainment Weekly raves,
+										<br>'Grade A: the funniest musical of all time.'  It’s The Book of Mormon, the nine-time Tony 
+										<br>Award and four-time Olivier winning Best Musical.<br>
+										<br>This outrageous musical comedy from creators of South Park, Trey Parker and Matt Stone,
+										<br>and Bobby Lopez co-writer of Avenue Q and Frozen, follows the misadventures of a
+										<br>mismatched pair of missionaries, sent on a mission to a place that’s about as far from Salt 
+										<br>Lake City as you can get.  Now with sold out productions in London, on Broadway, and in
+										<br>North America, Melbourne and Sydney, The Book of Mormon has become a worldwide sensation.<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<div class="modal-content" id="a5">
+								<img src="assets/images/shows/wicked.png" alt="Wicked">
+									<span class="close">&#215;</span>
+									<p><span>Wicked</span></p>
+									<p>
+										<br>Apollo Victoria Theatre
+										<br>Overview<br>
+										<br>WICKED, the West End and Broadway musical sensation, is the recipient of more than 100 
+										<br>major international awards, including three Tony Awards on Broadway and two Olivier 
+										<br>Audience Awards in London.<br> 
+
+										<br>Already the 5th longest running musical currently playing in the West End and now seen 
+										<br>by more than 9 million people in London alone, WICKED remains 'one of the most 
+										<br>popular West End musicals ever' (Evening Standard).<br>
+
+										<br>'The gravity-defying ‘Wizard of Oz’ prequel' (Time Out London) tells the incredible untold 
+										<br>story of an unlikely but profound friendship between two young women who first meet as 
+										<br>sorcery students. Their extraordinary adventures in Oz will ultimately see them fulfil their 
+										<br>destinies as Glinda The Good and the Wicked Witch of the West.<br>
+
+										<br>Transporting audiences to a stunningly re-imagined world of Oz, this unforgettable 
+										<br>musical features stunning costumes, spectacular sets and show-stopping songs in a night 
+										<br>of spellbinding theatrical magic.<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<div class="modal-content" id="a6">
+								<img src="assets/images/shows/theCuriousIncident.png" alt="The Curious Incident of The Dog In The Night-Time">
+									<span class="close">&#215;</span>
+									<p><span>The Curious Incident of The Dog In The Night-Time</span></p>
+									<p>
+										<br>The Curious Incident of the Dog in the Night-Time
+										<br>Piccadilly Theatre
+										<br>Overview<br>
+										<br>Booking from 29 November - 27 April 2019
+										<br>The smash-hit National Theatre production of The Curious Incident of the Dog in the 
+										<br>Night-Time returns to London for a strictly limited season, following an acclaimed UK and I
+										<br>nternational tour.<br> 
+										<br>Winner of 7 Olivier Awards and 5 Tony Awards® including ‘Best Play’, The Curious 
+										<br>Incident of the Dog in the Night-Time brings Mark Haddon’s best-selling novel to thrilling 
+										<br>life on stage, adapted by two-time Olivier Award-winning playwright Simon Stephens and 
+										<br>directed by Olivier and Tony Award®-winning director Marianne Elliott.<br>
+										<br>Christopher, fifteen years old, stands beside Mrs Shears’ dead dog. It has been speared 
+										<br>with a garden fork, it is seven minutes after midnight and Christopher is under suspicion. 
+										<br>He records each fact in the book he is writing to solve the mystery of who murdered 
+										<br>Wellington. He has an extraordinary brain, exceptional at maths while ill-equipped to 
+										<br>interpret everyday life. He has never ventured alone beyond the end of his road, he 
+										<br>detests being touched and he distrusts strangers. But his detective work, forbidden by his 
+										<br>father, takes him on a frightening journey that upturns his world.<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+							</div>
+							<nav class="items">
+								<button class="myBtn" data-bid="a1">9 to 5 The Musical</button>
+								<button class="myBtn" data-bid="a2">Betrayal</button>
+								<button class="myBtn" data-bid="a3">Disney's The Lion King</button>
+								<button class="myBtn" data-bid="a4">The Book Of Mormon</button>
+								<button class="myBtn" data-bid="a5">Wicked</button>
+								<button class="myBtn" data-bid="a6">The Curious</button>
+						</div>
+				</div>
+							<script>
+							$(document).on('click','.myBtn',function(){
+								var myTargetModal = '#' + $(this).data('bid');
+								$('#myModal').hide();
+								$('.modal-content').hide();
+								
+								$('#myModal').fadeIn();
+								$(myTargetModal).fadeIn();
+							});
+
+							$("body" ).on( "click",".close", function() {
+								$('#myModal').hide();
+								$('.modal-content').hide();
+							});
+							</script>
+			</div>		
+		</div>
+					<div class="container">
+						<h2 class="center-left">West End Shows</h2>
+						<img src="assets/images/shows/9To5TheMusical.png" alt="9 to 5 The Musical" usemap="#9To5TheMusicalmap">
+							<map name="9To5TheMusicalmap">
+							<area shape="rect" coords="0,0,139,197" href="booking.html" alt="Booking Page">
+						
+						<img src="assets/images/shows/betrayal.png" alt="Betrayal" usemap="#betrayalmap">
+							<map name="betrayalmap">
+							<area shape="rect" coords="0,0,139,197" href="booking.html" alt="Booking Page">
+						
+						<img src="assets/images/shows/disneysTheLionKing.png" alt="Disney's The Lion King" usemap="#disneysTheLionKingmap">
+							<map name="disneysTheLionKingmap">
+							<area shape="rect" coords="0,0,139,197" href="booking.html" alt="Booking Page">
+							
+						<img src="assets/images/shows/wicked.png" alt="Wicked" usemap="#wickedmap">
+							<map name="wickedmap">
+							<area shape="rect" coords="0,0,139,197" href="booking.html" alt="Booking Page">
+							
+						<img src="assets/images/shows/caroline,OrChange.png" alt="Caroline, or Change" usemap="#caroline,OrChangemap">
+							<map name="caroline,OrChangemap">
+							<area shape="rect" coords="0,0,139,197" href="booking.html" alt="Booking Page">
+							
+						<img src="assets/images/shows/summerAndSmoke.png" alt="Summer And Smoke" usemap="#summerAndSmokemap">
+							<map name="summerAndSmokemap">
+							<area shape="rect" coords="0,0,139,197" href="booking.html" alt="Booking Page">
+					</div>
+						<div class="container">
+							<h2 class="center-left">Musicals</h2>
+							<img src="assets/images/shows/lesMiserables.png" alt="Les Miserables" usemap="#lesMiserablesmap">
+								<map name="lesMiserablesmap">
+								<area shape="rect" coords="0,0,139,197" href="booking.html" alt="Booking Page">
+							
+							<img src="assets/images/shows/kinkyBoots.png" alt="Kinky Boots" usemap="#kinkyBootssmap">
+								<map name="kinkyBootssmap">
+								<area shape="rect" coords="0,0,139,197" href="booking.html" alt="Booking Page" >
+								
+							<img src="assets/images/shows/theBodyguard.png" alt="The Bodyguard" usemap="#theBodyguardsmap">
+								<map name="theBodyguardsmap">
+								<area shape="rect" coords="0,0,139,197" href="booking.html" alt="Booking Page">
+							
+							<img src="assets/images/shows/9To5TheMusical.png" alt="9 to 5 The Musical" usemap="#9To5TheMusicalsmap">
+								<map name="9To5TheMusicalsmap">
+								<area shape="rect" coords="0,0,139,197" href="booking.html" alt="Booking Page">
+								
+							<img src="assets/images/shows/matildaTheMusical.png" alt="Matilda The Musical" usemap="#matildaTheMusicalmap">
+								<map name="matildaTheMusicalmap">
+								<area shape="rect" coords="0,0,139,197" href="booking.html" alt="Booking Page">
+								
+							<img src="assets/images/shows/wicked.png" alt="Wicked" usemap="#wickedmap" >
+								<map name="wickedmap">
+								<area shape="rect" coords="0,0,139,197" href="booking.html" alt="Booking Page">
+						</div>
+							<div class="container">
+								<h2 class="center-left">Comedy</h2>
+								<img src="assets/images/shows/bitMuch.png" alt="Josh Widdicombe - Bit Much..." usemap="#bitMuchmap">
+									<map name="bitMuchmap">
+									<area shape="rect" coords="0,0,139,197" href="booking.html" alt="Booking Page">
+									
+								<img src="assets/images/shows/terriblyFunny.png" alt="Jimmy Carr - Terribly Funny" usemap="#terriblyFunnymap">
+									<map name="terriblyFunnymap">
+									<area shape="rect" coords="0,0,139,197" href="booking.html" alt="Booking Page">
+									
+								<img src="assets/images/shows/theFastAndTheCurious.png" alt="Russell Kane - The Fast and the Curious" usemap="#theFastAndTheCuriousmap">
+									<map name="theFastAndTheCuriousmap">
+									<area shape="rect" coords="0,0,139,197" href="booking.html" alt="Booking Page">
+									
+								<img src="assets/images/shows/coldLasangeHateMyself1999.png" alt="James Acaster - Cold Lasange Hate Myself 1999" usemap="#coldLasangeHateMyself1999map">
+									<map name="coldLasangeHateMyself1999map">
+									<area shape="rect" coords="0,0,139,197" href="booking.html" alt="Booking Page">
+									
+								<img src="assets/images/shows/theCynicsMixtape.png" alt="Romesh Ranganathan - The Cynics Mixtape" usemap="#theCynicsMixtapemap">
+									<map name="theCynicsMixtapemap">
+									<area shape="rect" coords="0,0,139,197" href="booking.html" alt="Booking Page">
+									
+								<img src="assets/images/shows/theBookOfJohn.png" alt="Rhod Gibert - The Book of John" usemap="#theBookOfJohnmap">
+									<map name="theBookOfJohnmap">
+									<area shape="rect" coords="0,0,139,197" href="booking.html" alt="Booking Page">
+						</div>
+			</div>
+		</div>
+	</main>
+		    <!--Footer-->
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">The Theatre</h5>
+                    <p class="grey-text text-lighten-4">Use these links to navigate the site</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Menu</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="shows.html">Shows</a></li>
+                        <li><a class="grey-text text-lighten-3" href="about.html">About</a></li>
+                        <li><a class="grey-text text-lighten-3" href="contact.html">Contact</a></li>
+                        <li><a class="grey-text text-lighten-3" href="seating-plan.html">Seating</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                &copy; Group 2 Designs 2018
+            </div>
+        </div>
+    </footer>
+    <!--Load javascript here for efficiency-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 
 </html>
