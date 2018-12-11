@@ -62,64 +62,93 @@
             <div class="blurb">
                 <h2>Book a Performance</h2>
                 <p class="flow-text">We're thrilled you would like to visit
-                    <i>The Theatre</i>, Fill out your information below and press submit to purchase online, if you
-                    have any
+                    <i>The Theatre</i>, Fill out your information below and press submit to purchase online, if you have any
                     problems you can
                     <a href="contact.html">contact us</a> or purchase on premesis.
                 </p>
             </div>
             <div class="container">
-                <div class="booking-form">
-                    <form class="bookingForm" action="#">
-                        <div class="row">
-                            <div class="input-field col s4">
-                                <input placeholder="Name" type="text">
-                            </div>
-                            <div class="input-field col s3">
-                                <select>
-                                    <option value="1"><span class="black-text">1</span></option>
-                                    <option value="2"><span class="black-text">2</span></option>
-                                    <option value="3"><span class="black-text">3</span></option>
-                                    <option value="4"><span class="black-text">4</span></option>
-                                    <option value="5"><span class="black-text">5</span></option>
-                                </select>
-                                <label>Quantity</label>
-                            </div>
+                <div class="row">
+                    <div class="col s6">
+                        <div class="booking-form">
+                            <form class="bookingForm" action="#">
+                                <div class="row">
+                                    <div class="input-field col s4">
+                                        <input placeholder="Name" type="text">
+                                    </div>
+                                    <div class="input-field col s3">
+                                        <select>
+                                            <option value="1"><span class="black-text">1</span></option>
+                                            <option value="2"><span class="black-text">2</span></option>
+                                            <option value="3"><span class="black-text">3</span></option>
+                                            <option value="4"><span class="black-text">4</span></option>
+                                            <option value="5"><span class="black-text">5</span></option>
+                                        </select>
+                                        <label>Quantity</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s7">
+                                        <input placeholder="Email Address" type="email" class="validate">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s7">
+                                        <input placeholder="Phone Number" type="tel" class="validate">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s7">
+                                        <input placeholder="Card Number" type="text">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s2">
+                                        <label>Expiry</label>
+                                        <input placeholder="MM" type="text">
+                                    </div>
+                                    <div class="input-field col s2">
+                                        <input placeholder="YY" type="text">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s4">
+                                        <input placeholder="XXX" type="number">
+                                        <label>CVV</label>
+                                    </div>
+                                </div>
+                                <button class="btn waves-effect waves-light black" type="submit" name="action">Submit
+                                    <i class="material-icons right">send</i>
+                                </button>
+                            </form>
+                            <br>
                         </div>
-                        <div class="row">
-                            <div class="input-field col s7">
-                                <input placeholder="Email Address" type="email" class="validate">
-                            </div>
+                    </div>
+                    <div class="col s6 valign-wrapper">
+                        <div class="showSelect">
+                            <form>
+                                <div class="input-field">
+                                    <select>
+                                        <option data-icon="assets/images/home/onlyFoolsAndHorses.jpg" class="right"><span class="black">Show 1</span></option>
+                                        <option data-icon="assets/images/home/trueWest.jpg"><span class="black">Show 2</span></option>
+                                        <option data-icon="assets/images/home/home.jpg"><span class="black">Show 3</span></option>
+                                        <label>Select a Show</label>
+                                    </select>
+                                </div>
+                                <div class="input-field">
+                                    <input name="dateSelect" type="date">
+                                    <label>Select a Date</label>
+                                </div>
+                                <div class="input-field">
+                                    <select>
+                                        <option>1400</option>
+                                        <option>1900</option>
+                                    </select>
+                                    <label>Select a Time</label>
+                                </div>
+                            </form>
                         </div>
-                        <div class="row">
-                            <div class="input-field col s7">
-                                <input placeholder="Phone Number" type="tel" class="validate">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="input-field col s7">
-                                <input placeholder="Card Number" type="text">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="input-field col s2">
-                                <label>Expiry</label>
-                                <input placeholder="MM" type="text">
-                            </div>
-                            <div class="input-field col s2">
-                                <input placeholder="YY" type="text">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="input-field col s4">
-                                <input placeholder="XXX" type="number">
-                                <label>CVV</label>
-                            </div>
-                        </div>
-                        <button class="btn waves-effect waves-light black" type="submit" name="action">Submit<i class="material-icons right">send</i>
-                        </button>
-                    </form>
-                    <br>
+                    </div>
                 </div>
             </div>
         </div>
