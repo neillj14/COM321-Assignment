@@ -1,58 +1,55 @@
 /*
-===============================
-Dividers
-===============================
+    =============
+    Home
+    =============
 */
-
-.Email {
+#main-body ,p{
+    text-align: justify;
+    font-size:15pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.more-info{
     background-color:black;
     color:white;
 }
-
-.Telephone {
-    background-color:black;
-    color: white;
+#main-body{
+    background-color:white;
 }
-
-.Social {
-    background-color:black;
-    color: white;
+h2, h3{
+    text-align:left;
 }
-
+.teaser-section, 
+.teaser-section a,
+.teaser-section a:visited
+.other-pages, 
+.other-pages a,
+.other-pages a:visited{
+    background-color: white;
+    color:black;
+}
+.teaser-section a:hover,
+.other-pages a:hover{
+    color: grey;
+}
 /*
-================================
-Navbar
-================================
+    =============
+    Booking
+    =============
 */
-
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: black;
-    overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    color: white;
+.blurb h2{
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 14px;
 }
-
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ddd;
+.blurb a, .blurb a:visited{
     color: black;
+    text-decoration:underline;
 }
-
-/* Add a color to the active/current link 
-.topnav a.active {
-    background-color: red;
-    color: white;
-}*/
-
-
-
-
+.blurb a:hover{
+    color: grey;
+}
+.book{
+    color:black;
+    background-color:white;
+}
+form{
+    color:black;
+}

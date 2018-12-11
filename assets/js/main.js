@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    $('.sidenav').sidenav();
-    $('select').formSelect();
-    $('.datepicker').datepicker();
-  });
+  $('.sidenav').sidenav();
+  $('select').formSelect();
+  $('.datepicker').datepicker();
+});
 

@@ -2,11 +2,194 @@
 <html lang="en">
 
 <head>
+    <link rel="icon" href="assets/images/favicon.png">
     <link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
     <title>Booking - The Theatre</title>
 </head>
 
 <body>
+    <!--Top navbar-->
+    <header>
+        <nav>
+            <div class="nav-wrapper black">
+                <a href="#" class="center brand-logo">The Theatre</a>
+                <a href="#" data-target="mobile-menu" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul id="nav-mobile" class=" right hide-on-med-and-down">
+                    <li class="active">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="shows.html">Shows</a>
+                    </li>
+                    <li>
+                        <a href="seating-plan.html">Seating Plan</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--Hamburger sidenav for mobile-->
+        <ul id="mobile-menu" class="sidenav">
+            <li class="active">
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="shows.html">Shows</a>
+            </li>
+            <li>
+                <a href="seating-plan.html">Seating Plan</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!--Page Content-->
+    <main>
+        <div id="main-body" class="container">
+            <div class="blurb">
+                <h2>Book a Performance</h2>
+                <p class="flow-text">We're thrilled you would like to visit
+                    <i>The Theatre</i>, Fill out your information below and press submit to purchase online, if you have any
+                    problems you can
+                    <a href="contact.html">contact us</a> or purchase on premesis.
+                </p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col s6">
+                        <div class="booking-form">
+                            <form class="bookingForm" action="#">
+                                <div class="row">
+                                    <div class="input-field col s4">
+                                        <input placeholder="Name" type="text">
+                                    </div>
+                                    <div class="input-field col s3">
+                                        <select>
+                                            <option value="1"><span class="black-text">1</span></option>
+                                            <option value="2"><span class="black-text">2</span></option>
+                                            <option value="3"><span class="black-text">3</span></option>
+                                            <option value="4"><span class="black-text">4</span></option>
+                                            <option value="5"><span class="black-text">5</span></option>
+                                        </select>
+                                        <label>Quantity</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s7">
+                                        <input placeholder="Email Address" type="email" class="validate">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s7">
+                                        <input placeholder="Phone Number" type="tel" class="validate">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s7">
+                                        <input placeholder="Card Number" type="text">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s2">
+                                        <label>Expiry</label>
+                                        <input placeholder="MM" type="text">
+                                    </div>
+                                    <div class="input-field col s2">
+                                        <input placeholder="YY" type="text">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s4">
+                                        <input placeholder="XXX" type="number">
+                                        <label>CVV</label>
+                                    </div>
+                                </div>
+                                <button class="btn waves-effect waves-light black" type="submit" name="action">Submit
+                                    <i class="material-icons right">send</i>
+                                </button>
+                            </form>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col s6 valign-wrapper">
+                        <div class="showSelect">
+                            <form>
+                                <div class="input-field">
+                                    <select>
+                                        <option data-icon="assets/images/home/onlyFoolsAndHorses.jpg" class="right"><span class="black">Show 1</span></option>
+                                        <option data-icon="assets/images/home/trueWest.jpg"><span class="black">Show 2</span></option>
+                                        <option data-icon="assets/images/home/home.jpg"><span class="black">Show 3</span></option>
+                                        <label>Select a Show</label>
+                                    </select>
+                                </div>
+                                <div class="input-field">
+                                    <input name="dateSelect" type="date">
+                                    <label>Select a Date</label>
+                                </div>
+                                <div class="input-field">
+                                    <select>
+                                        <option>1400</option>
+                                        <option>1900</option>
+                                    </select>
+                                    <label>Select a Time</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--Footer-->
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">The Theatre</h5>
+                    <p class="grey-text text-lighten-4">Use these links to navigate the site</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Menu</h5>
+                    <ul>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="shows.html">Shows</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="contact.html">Contact</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="seating-plan.html">Seating</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                &copy; Group 2 Designs 2018
+            </div>
+        </div>
+    </footer>
+    <!--Load javascript here for efficiency-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
 
 </body>
 
