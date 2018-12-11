@@ -2,12 +2,602 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
-    <title>Shows - The Theatre</title>
+	<link rel="icon" href="assets/images/favicon.png">
+	<link rel="images" href="assets/images/shows/9To5TheMusical.png">
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
+	<title>Shows - The Theatre</title>
+	<meta charset="utf-8">
+	<script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"></script>
+	<style>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 10px;
+    top: 10px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
 </head>
-
 <body>
+ <!--Top navbar-->
+    <header>
+        <nav>
+            <div class="nav-wrapper black">
+                <a href="#" class="center brand-logo">The Theatre</a>
+                <a href="#" data-target="mobile-menu" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul id="nav-mobile" class=" right hide-on-med-and-down">
+                    <li class="active">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="shows.html">Shows</a>
+                    </li>
+                    <li>
+                        <a href="seating-plan.html">Seating Plan</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+		
+        <!--Hamburger sidenav for mobile-->
+        <ul id="mobile-menu" class="sidenav">
+            <li class="active">
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="shows.html">Shows</a>
+            </li>
+            <li>
+                <a href="seating-plan.html">Seating Plan</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </header>
+	
+		  <!--Content-->
+    <main>
+        <div id="main-body">
+                <div class="container">
+                    <h2 class="center">Shows</h2> 
+					<p class="center">
+						We have a range of shows to offer you, so have a look around and see what you might like! 
+					</p>
+					<h2 class="center-left">Most Popular Shows</h2>
+					<img src="assets/images/shows/9To5TheMusical.png" alt="9 to 5 The Musical">
+					<img src="assets/images/shows/betrayal.png" alt="Betrayal">
+					<img src="assets/images/shows/disneysTheLionKing.png" alt="Disney's The Lion King">
+					<img src="assets/images/shows/theBookOfMormon.png" alt="The Book Of Mormon">
+					<img src="assets/images/shows/wicked.png" alt="Wicked">
+					<img src="assets/images/shows/theCuriousIncident.png" alt="The Curious Incident of The Dog In The Night-Time">
+						<div class="container/iframe">				
+							<!-- The Modal -->
+							<div id="myModal" class="modal">
+								<!-- Modal content -->
+								<div class="modal-content" id="a1">
+									<img src="assets/images/shows/9To5TheMusical.png" alt="9 to 5 The Musical">
+									<span class="close">&#215;</span>
+									<p><span>9 to 5 The Musical</span></p>
+									<p>
+										<br>Savoy Theatre
+										<br>Overview
+										<br>From 28 January 2019<br>
+										<br>Tumble outta' bed and stumble to Dolly Parton’s rip-roaring West End musical!
+										<br>9 to 5 the Musical is about to get down to business - with a strictly limited season at the West End's Savoy Theatre. 
+										<br>Starring Louise Redknapp, Amber Davies, Natalie McQueen, Bonnie Langford and Brian Conley, the smash-hit musical features an Oscar, Grammy and Tony award-nominated score by the Queen of Country herself, Dolly Parton.
+										<br>9 to 5 the Musical  tells the story of Doralee, Violet and Judy - three workmates pushed to boiling point by their sexist and egotistical boss. Concocting a plan to kidnap and turn the tables on their despicable supervisor, will the girls manage to reform their office - or will events unravel when the CEO pays an unexpected visit?
+										<br>Inspired by the cult film and brought to you by Dolly herself, this hilarious new West End production is about teaming up, standing up and taking care of business!
+										<br>Please note: Dolly Parton will not be appearing in this production<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<!-- Modal content -->
+								<div class="modal-content" id="a2">
+									<img src="assets/images/shows/betrayal.png" alt="Betrayal">
+									<span class="close">&#215;</span>
+									<p><span>Betrayal</span></p>
+									<p>
+										<br>The Harold Pinter Theatre
+										<br>Overview<br>
+										<br>Golden Globe and Olivier Award winner Tom Hiddleston stars in the Jamie Lloyd 
+										<br>Company’s revival of Harold Pinter’s Betrayal, opening at London’s Harold Pinter Theatre 
+										<br>for a strictly limited 12 week season from 5 March 2019.<br>
+										<br>With poetic precision, rich humour and an extraordinary emotional force, Betrayal charts 
+										<br>a compelling seven-year romance, thrillingly captured in reverse chronological order. 
+										<br>Described as “the greatest, and the most moving, of all Pinter’s plays” (Daily Telegraph), this 
+										<br>production marks the culmination of the Jamie Lloyd Company’s ground-breaking Pinter at the Pinter season.<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<div class="modal-content" id="a3">
+									<img src="assets/images/shows/disneysTheLionKing.png" alt="Disney's The Lion King">
+									<span class="close">&#215;</span>
+									<p><span>Disney's The Lion King</span></p>
+									<p>
+										<br>Lyceum Theatre
+										<br>Overview<br>
+										<br>Set against the majesty of the Serengeti Plains and to the evocative rhythms of Africa,
+										<br>Disney’s multi-award winning musical will redefine your expectations of the theatre.<br>
 
+										<br>Brilliantly reimagined by acclaimed director Julie Taymor, Disney’s beloved film has been
+										<br>transformed into a spectacular theatrical experience that explodes with glorious colours,
+										<br>stunning effects and enchanting music.<br>
+
+										<br>At its heart is the powerful and moving story of Simba – the epic adventure of his journey
+										<br>from wide-eyed cub to his destined role as the King of the Pridelands.<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<div class="modal-content" id="a4">
+									<img src="assets/images/shows/theBookOfMormon.png" alt="The Book Of Mormon">
+									<span class="close">&#215;</span>
+									<p><span>The Book Of Mormon</span></p>
+									<p>
+										<br>Palace Theatre Manchester
+										<br>Overview<br>
+										<br>The New York Times calls it ‘The best musical of this century.’  The Washington Post says, 'It 
+										<br>is the kind of evening that restores your faith in musicals.’  And Entertainment Weekly raves,
+										<br>'Grade A: the funniest musical of all time.'  It’s The Book of Mormon, the nine-time Tony 
+										<br>Award and four-time Olivier winning Best Musical.<br>
+										<br>This outrageous musical comedy from creators of South Park, Trey Parker and Matt Stone,
+										<br>and Bobby Lopez co-writer of Avenue Q and Frozen, follows the misadventures of a
+										<br>mismatched pair of missionaries, sent on a mission to a place that’s about as far from Salt 
+										<br>Lake City as you can get.  Now with sold out productions in London, on Broadway, and in
+										<br>North America, Melbourne and Sydney, The Book of Mormon has become a worldwide sensation.<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<div class="modal-content" id="a5">
+									<img src="assets/images/shows/wicked.png" alt="Wicked">
+									<span class="close">&#215;</span>
+									<p><span>Wicked</span></p>
+									<p>
+										<br>Overview<br>
+										<br>WICKED, the West End and Broadway musical sensation, is the recipient of more than 100 
+										<br>major international awards, including three Tony Awards on Broadway and two Olivier 
+										<br>Audience Awards in London.<br> 
+
+										<br>Already the 5th longest running musical currently playing in the West End and now seen 
+										<br>by more than 9 million people in London alone, WICKED remains 'one of the most 
+										<br>popular West End musicals ever' (Evening Standard).<br>
+
+										<br>'The gravity-defying ‘Wizard of Oz’ prequel' (Time Out London) tells the incredible untold 
+										<br>story of an unlikely but profound friendship between two young women who first meet as 
+										<br>sorcery students. Their extraordinary adventures in Oz will ultimately see them fulfil their 
+										<br>destinies as Glinda The Good and the Wicked Witch of the West.<br>
+
+										<br>Transporting audiences to a stunningly re-imagined world of Oz, this unforgettable 
+										<br>musical features stunning costumes, spectacular sets and show-stopping songs in a night 
+										<br>of spellbinding theatrical magic.<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<div class="modal-content" id="a6">
+									<img src="assets/images/shows/theCuriousIncident.png" alt="The Curious Incident of The Dog In The Night-Time">
+									<span class="close">&#215;</span>
+									<p><span>The Curious Incident of The Dog In The Night-Time</span></p>
+									<p>
+										<br>Piccadilly Theatre
+										<br>Overview<br>
+										<br>Booking from 29 November - 27 April 2019
+										<br>The smash-hit National Theatre production of The Curious Incident of the Dog in the 
+										<br>Night-Time returns to London for a strictly limited season, following an acclaimed UK and I
+										<br>nternational tour.<br> 
+										<br>Winner of 7 Olivier Awards and 5 Tony Awards® including ‘Best Play’, The Curious 
+										<br>Incident of the Dog in the Night-Time brings Mark Haddon’s best-selling novel to thrilling 
+										<br>life on stage, adapted by two-time Olivier Award-winning playwright Simon Stephens and 
+										<br>directed by Olivier and Tony Award®-winning director Marianne Elliott.<br>
+										<br>Christopher, fifteen years old, stands beside Mrs Shears’ dead dog. It has been speared 
+										<br>with a garden fork, it is seven minutes after midnight and Christopher is under suspicion. 
+										<br>He records each fact in the book he is writing to solve the mystery of who murdered 
+										<br>Wellington. He has an extraordinary brain, exceptional at maths while ill-equipped to 
+										<br>interpret everyday life. He has never ventured alone beyond the end of his road, he 
+										<br>detests being touched and he distrusts strangers. But his detective work, forbidden by his 
+										<br>father, takes him on a frightening journey that upturns his world.<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<div class="modal-content" id="a7">
+									<img src="assets/images/shows/caroline,OrChange.png" alt="Caroline, or Change">
+									<span class="close">&#215;</span>
+									<p><span>Caroline, or Change</span></p>
+									<p>
+										<br>Playhouse Theatre
+										<br>Overview<br>
+										<br>Don’t miss the extraordinary and joyously original Caroline, Or Change, as the five-star,
+										<br>Olivier award-winning musical transfers to the West End this November following sell-out 
+										<br>runs at the Chichester Festival and Hampstead Theatres.<br>
+										<br>Written by Tony Kushner, author of legendary play Angels in America, and with an
+										<br>exceptional, soaring score from Tony Award-winning Jeanine Tesori, Caroline, Or Change
+										<br>stars Sharon D. Clarke in an astonishing 'virtuoso performance. To watch her seems a 
+										<br>privilege' (The Times).<br>
+										<br>Louisiana, 1963. Revolution is in the air, though not so much for Caroline, the poorly paid 
+										<br>maid toiling endlessly in the sweltering basement of the Gellman household. It’s a 
+										<br>fantastical, magical place amidst the piles of laundry and singing washing machines, 
+										<br>especially for eight-year-old Noah Gellman who sneaks downstairs to see her whenever he can. 
+										<br>Yet a simple gesture to leave more money in Caroline’s pocket is about to test who 
+										<br>and how far the winds of change can ever really reach…<br>
+										<br>Winner of the Olivier Award for Best New Musical, Caroline, Or Change is a playful, funny,
+										<br>and deeply moving tale set to a score that hits new heights of emotion, in a production 
+										<br>that always delights with imagination. Directed by Michael Longhurst (Amadeus, Constellations),
+										<br>this vital and timely musical opens at the Playhouse Theatre from 20 November 2018 for a strictly limited season.<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<div class="modal-content" id="a8">
+									<img src="assets/images/shows/summerAndSmoke.png" alt="Summer And Smoke">
+									<span class="close">&#215;</span>
+									<p><span>Summer And Smoke</span></p>
+									<p>
+										<br>Overview<br>
+										<br>Following a critically acclaimed, sold-out run at the Almeida Theatre, Rebecca Frecknall’s ‘shiveringly 
+										<br>beautiful production’ (The Sunday Times) of Tennessee Williams’ Summer and Smoke transfers to the West End’s Duke 
+										<br>of York’s Theatre for a strictly limited season.<br>
+										<br>Trapped between desire and a life of obligation, Alma meets John and her world turns upside down. With ‘spellbinding,
+										<br>stripped-back staging’ (Financial Times), this intoxicating classic about love, loneliness and self-destruction evokes
+										<br>the simmering passions of a sweltering summer in small-town Mississippi.<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<div class="modal-content" id="a9">
+									<img src="assets/images/shows/lesMiserables.png" alt="Les Miserables">
+									<span class="close">&#215;</span>
+									<p><span>Les Miserables</span></p>
+									<p>
+										<br>Overview<br>
+										<br>After nearly a decade since the last sell-out UK tour, Cameron Mackintosh’s acclaimed Broadway production of Boublil and Schönberg’s 
+										<br>musical Les Misérables will tour the UK in 2019.<br>
+										<br>This brilliant new staging has taken the world by storm and has been hailed ‘Les Mis for the 21st Century’.
+										<br>With scenery inspired by the paintings of Victor Hugo, the magnificent score of Les Misérables includes the songs: 
+										<br>I Dreamed a Dream, On My Own, Bring Him Home, One Day More, Master Of The House and many more.
+										<br>Seen by over 120 million people worldwide in 45 countries and in 22 languages, Les Misérables is undisputedly one of the world’s most 
+										<br>popular musicals.<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<div class="modal-content" id="a10">
+									<img src="assets/images/shows/kinkyBoots.png" alt="Kinky Boots">
+									<span class="close">&#215;</span>
+									<p><span>Kinky Boots</span></p>
+									<p>
+										<br>Overview<br>
+										<Br>With songs by Grammy® and Tony® winning pop icon Cyndi Lauper, Kinky Boots takes you from the factory floor 
+										<br>to the glamorous catwalks of Milan.<br>
+										<br>Charlie Price is struggling to live up to his father’s expectations and continue the family business of Price & Son. 
+										<br>With the shoe factory’s future hanging in the balance, help arrives in the unlikely but spectacular form of Lola - a fabulous performer in need of some 
+										<br>sturdy new stilettos.<br>
+										<br>West End star Kayi Ushe will be putting on the boots to play Lola. He will be joined by Paula Lane as Lauren, best known for her role as Kylie Platt in 
+										<br>Coronation Street, and Joel Harper-Jackson, who recently starred in the The Curious Incident of the Dog in the Night Time UK tour, will be playing Charlie Price.<br>
+										<br>Inspired by true events, this joyous story of Brit grit to high-heeled hit is the ‘Freshest, most fabulous, feel-good musical of the decade’ 
+										<br>– The Hollywood News. It’s the ultimate fun night out for you and your loved ones, so book now and experience the energy, joy and laughter of this dazzling show.<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<div class="modal-content" id="a11">
+									<img src="assets/images/shows/theBodyguard.png" alt="The Bodyguard">
+									<span class="close">&#215;</span>
+									<p><span>The Bodyguard</span></p>
+									<p>
+										<br>Overview<br>
+										<br>The international, award-winning smash-hit musical based on the blockbuster film, The Bodyguard is back! Following her triumphant West End run and sell-out UK Tour, 
+										<br>three-time Brit nominee and X-Factor winner, Alexandra Burke* returns to the role of Rachel Marron.<br>
+										<br>Former Secret Service agent turned bodyguard, Frank Farmer, is hired to protect superstar Rachel Marron from an unknown stalker. 
+										<br>Each expects to be in charge – what they don't expect is to fall in love.<br>
+										<br>A ‘brilliant!’ (The Times), breathtakingly romantic thriller, The Bodyguard features a whole host of irresistible classics including Queen of the Night,
+										<br>So Emotional, One Moment in Time, Saving All My Love, Run to You, I Have Nothing, Greatest Love Of All, Million Dollar Bill, I Wanna Dance With Somebody 
+										<br>and one of the greatest hit songs of all time – I Will Always Love You.<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<div class="modal-content" id="a1">
+									<img src="assets/images/shows/9To5TheMusical.png" alt="9 to 5 The Musical">
+									<span class="close">&#215;</span>
+									<p><span>9 to 5 The Musical</span></p>
+									<p>
+										<br>Savoy Theatre
+										<br>Overview
+										<br>From 28 January 2019<br>
+										<br>Tumble outta' bed and stumble to Dolly Parton’s rip-roaring West End musical!
+										<br>9 to 5 the Musical is about to get down to business - with a strictly limited season at the West End's Savoy Theatre. 
+										<br>Starring Louise Redknapp, Amber Davies, Natalie McQueen, Bonnie Langford and Brian Conley, the smash-hit musical features an Oscar, Grammy and 
+										<br>Tony award-nominated score by the Queen of Country herself, Dolly Parton.<br>
+										<br>9 to 5 the Musical  tells the story of Doralee, Violet and Judy - three workmates pushed to boiling point by their sexist and egotistical boss. 
+										<br>Concocting a plan to kidnap and turn the tables on their despicable supervisor, will the girls manage to reform their office - or will events unravel when the CEO pays an unexpected visit?
+										<br>Inspired by the cult film and brought to you by Dolly herself, this hilarious new West End production is about teaming up, standing up and taking care of business!
+										<br>Please note: Dolly Parton will not be appearing in this production<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<div class="modal-content" id="a12">
+									<img src="assets/images/shows/matildaTheMusical.png" alt="Matilda The Musical">
+									<span class="close">&#215;</span>
+									<p><span>Matilda The Musical</span></p>
+									<p>
+										<br>Overview<br>
+										<br>With book by Dennis Kelly and original songs by Tim Minchin, Matilda The Musical is the story of an extraordinary little girl who, armed with a 
+										vivid imagination and a sharp mind, dares to take a stand and change her own destiny.
+										<br>Winner of over 85 international awards, including 16 for Best Musical, Matilda The Musical continues to delight audiences in London and on 
+										<br>tour across the UK and Ireland.<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<div class="modal-content" id="a5">
+									<img src="assets/images/shows/wicked.png" alt="Wicked">
+									<span class="close">&#215;</span>
+									<p><span>Wicked</span></p>
+									<p>
+										<br>Overview<br>
+										<br>WICKED, the West End and Broadway musical sensation, is the recipient of more than 100 
+										<br>major international awards, including three Tony Awards on Broadway and two Olivier 
+										<br>Audience Awards in London.<br> 
+
+										<br>Already the 5th longest running musical currently playing in the West End and now seen 
+										<br>by more than 9 million people in London alone, WICKED remains 'one of the most 
+										<br>popular West End musicals ever' (Evening Standard).<br>
+
+										<br>'The gravity-defying ‘Wizard of Oz’ prequel' (Time Out London) tells the incredible untold 
+										<br>story of an unlikely but profound friendship between two young women who first meet as 
+										<br>sorcery students. Their extraordinary adventures in Oz will ultimately see them fulfil their 
+										<br>destinies as Glinda The Good and the Wicked Witch of the West.<br>
+
+										<br>Transporting audiences to a stunningly re-imagined world of Oz, this unforgettable 
+										<br>musical features stunning costumes, spectacular sets and show-stopping songs in a night 
+										<br>of spellbinding theatrical magic.<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<div class="modal-content" id="a13">
+									<img src="assets/images/shows/bitMuch.png" alt="Josh Widdicombe - Bit Much...">
+									<span class="close">&#215;</span>
+									<p><span>Josh Widdicombe - Bit Much..</span></p>
+									<p>
+										<br>Overview<br>
+										<br>The guy everyone can do an impression of is back with a brand new stand up tour. A show that will change your life and how you perceive your place in the world. 
+										<br>Bit much? Fine, it’ll be a very funny night of grumbles and jokes in which Josh will finally tackle the hot comedy topics of advent calendars, pesto and the closing time of his local park. 
+										<br>Widdicombe is best known for the twice BAFTA nominated and multiple Broadcast and RTS award winning show, The Last Leg, as well as his critically acclaimed sitcom JOSH, Insert Name Here, QI, 
+										<br>Have I Got New For You, A League of Their Own and his hit podcast Quickly Kevin Will He Score.<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<div class="modal-content" id="a14">
+									<img src="assets/images/shows/terriblyFunny.png" alt="Jimmy Carr - Terribly Funny">
+									<span class="close">&#215;</span>
+									<p><span>Jimmy Carr - Terribly Funny</span></p>
+									<p>
+										<br>Overview<br>
+										<br>Jimmy’s brand new show contains jokes about all kinds of terrible things. 
+										<br>Terrible things that might have affected you or people you know and love.
+										<br>But they’re just jokes - they are not the terrible things. 
+										<br>Having political correctness at a comedy show is like having health and safety at a rodeo. 
+										<br>Now you’ve been warned, buy a ticket. 
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<div class="modal-content" id="a15">
+									<img src="assets/images/shows/theFastAndTheCurious.png" alt="Russell Kane - The Fast and the Curious">
+									<span class="close">&#215;</span>
+									<p><span>Russell Kane - The Fast and the Curious</span></p>
+									<p>
+										<br>Overview<br>
+										<br>He’s back. The keenly-awaited brand new tour show is here. Packing more energy than a Duracell factory, Russell’s RS Turbo laugh 
+										<br>engine will motor through love, family and life - once again proving that the fast and the curious amongst us, see more stuff, and get more done.
+										<br>Multi-award winning comedian, presenter, actor, author and scriptwriter Russell Kane is best known for BBC Three’s Stupid Man, Smart Phone and 
+										<br>the host of three series of BBC Three‘s Live At The Electric. Other TV appearances include BBC One’s Live At The Apollo, BBC Three’s Unzipped, 
+										<br>ITV2’s Celebrity Juice and I’m A Celebrity...Get Me Out of Here Now.<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<div class="modal-content" id="a16">
+									<img src="assets/images/shows/coldLasangeHateMyself1999.png" alt="James Acaster - Cold Lasange Hate Myself 1999">
+									<span class="close">&#215;</span>
+									<p><span>James Acaster - Cold Lasange Hate Myself 1999</span></p>
+									<p>
+										<br>Overview
+										<br>One time I bought a lasagne from the supermarket, heated it up in the oven and ate a bit of it and it wasn't very nice so I put it in the fridge because
+										<br>it felt wrong to dump a whole lasagne in the bin and then later on I ate a spoonful of the cold lasagne because I was drunk and it was absolutely delicious. 
+										<br>It was 4am. I then changed the name of a WhatsApp I was a part of to COLD LASAGNE HATE MYSELF 1999 because I had been thinking a lot about how 1999 was the 
+										<br>best year of my life and also about how much I hate myself sometimes. The next day I was asked to name my new show. Come along.<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<div class="modal-content" id="a17">
+									<img src="assets/images/shows/theCynicsMixtape.png" alt="Romesh Ranganathan - The Cynics Mixtape">
+									<span class="close">&#215;</span>
+									<p><span>Romesh Ranganathan - The Cynics Mixtape</span></p>
+									<p>
+										<br>Overview<br>
+										<br>Romesh is back with a brand new show The Cynic’s Mixtape, his most brutally honest show yet.<br>
+										<br>Fresh from the Misadventures of Romesh Ranganathan, A League Of Their Own and Judge Romesh, he's putting showbiz aside to deliver a carefully curated selection of all the things he has found 
+										<br>unacceptable since the last tour, including why trying to save the environment is a scam, why none of us are truly free, and his suspicion that his 
+										<br>wife is using gluten intolerance to avoid sleeping with him.<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+								<div class="modal-content" id="a18">
+									<img src="assets/images/shows/theBookOfJohn.png" alt="Rhod Gibert - The Book of John">
+									<span class="close">&#215;</span>
+									<p><span>Rhod Gibert - The Book of John</span></p>
+									<p>
+										<br>Overview<br>
+										<br>It has been a while, but the multi-award-winning Welsh comedian is back, with a brand new live show.  In a six-year break from stand-up, a lot has happened to Rhod. 
+										<br>Almost all of it s**t.
+										<br>And just when he thought he’d hit rock bottom, he met a bloke...called John.
+										<br>This show sees Rhod as funny as ever, but like never before.  Raw, personal and brutally honest; no more lies, no more nonsense.<br>
+										<a href="booking.html">Book Ticket</a>
+									</p>
+								</div>
+							</div>
+							<nav class="items">
+								<button class="myBtn" data-bid="a1">9 to 5 The Musical</button>
+								<button class="myBtn" data-bid="a2">Betrayal</button>
+								<button class="myBtn" data-bid="a3">Disney's The Lion King</button>
+								<button class="myBtn" data-bid="a4">The Book Of Mormon</button>
+								<button class="myBtn" data-bid="a5">Wicked</button>
+								<button class="myBtn" data-bid="a6">The Curious</button>
+						</div>
+						<div>
+							<h2 class="center-left">West End Shows</h2>
+							<div class="container/iframe">
+								<img src="assets/images/shows/9To5TheMusical.png" alt="9 to 5 The Musical">
+								<img src="assets/images/shows/betrayal.png" alt="Betrayal">
+								<img src="assets/images/shows/disneysTheLionKing.png" alt="Disney's The Lion King">
+								<img src="assets/images/shows/wicked.png" alt="Wicked">
+								<img src="assets/images/shows/caroline,OrChange.png" alt="Caroline, or Change">
+								<img src="assets/images/shows/summerAndSmoke.png" alt="Summer And Smoke">
+							</div>
+							<nav class="items">
+								<button class="myBtn" data-bid="a1">9 to 5 The Musical</button>
+								<button class="myBtn" data-bid="a2">Betrayal</button>
+								<button class="myBtn" data-bid="a3">Disney's The Lion King</button>
+								<button class="myBtn" data-bid="a5">Wicked</button>
+								<button class="myBtn" data-bid="a7">Caroline, or Change</button>
+								<button class="myBtn" data-bid="a8">Summer And Smoke</button>
+						</div>
+						<div>
+							<h2 class="center-left">Musicals</h2>
+							<div class="container/iframe">
+								<img src="assets/images/shows/lesMiserables.png" alt="Les Miserables">
+								<img src="assets/images/shows/kinkyBoots.png" alt="Kinky Boots">
+								<img src="assets/images/shows/theBodyguard.png" alt="The Bodyguard">
+								<img src="assets/images/shows/9To5TheMusical.png" alt="9 to 5 The Musical">
+								<img src="assets/images/shows/matildaTheMusical.png" alt="Matilda The Musical">
+								<img src="assets/images/shows/wicked.png" alt="Wicked">
+							</div>
+							<nav class="items">
+								<button class="myBtn" data-bid="a9">Les Miserables</button>
+								<button class="myBtn" data-bid="a10">Kinky Boots</button>
+								<button class="myBtn" data-bid="a11">The Bodyguard</button>
+								<button class="myBtn" data-bid="a1">9 to 5 The Musical</button>
+								<button class="myBtn" data-bid="a12">Matilda The Musical</button>
+								<button class="myBtn" data-bid="a5">Wicked</button>
+						</div>
+						<div>
+							<h2 class="center-left">Comedy</h2>
+							<div class="container/iframe">
+								<img src="assets/images/shows/bitMuch.png" alt="Josh Widdicombe - Bit Much...">
+								<img src="assets/images/shows/terriblyFunny.png" alt="Jimmy Carr - Terribly Funny">
+								<img src="assets/images/shows/theFastAndTheCurious.png" alt="Russell Kane - The Fast and the Curious">
+								<img src="assets/images/shows/coldLasangeHateMyself1999.png" alt="James Acaster - Cold Lasange Hate Myself 1999">
+								<img src="assets/images/shows/theCynicsMixtape.png" alt="Romesh Ranganathan - The Cynics Mixtape">
+								<img src="assets/images/shows/theBookOfJohn.png" alt="Rhod Gibert - The Book of John">
+							</div>
+							<nav class="items">
+								<button class="myBtn" data-bid="a13">Bit Much...</button>
+								<button class="myBtn" data-bid="a14">Terribly Funny</button>
+								<button class="myBtn" data-bid="a15">The Fast and the Curious</button>
+								<button class="myBtn" data-bid="a16">Cold Lasange</button>
+								<button class="myBtn" data-bid="a17">The Cynics Mixtape</button>
+								<button class="myBtn" data-bid="a18">The Book of John</button>
+						</div>
+				</div>			
+		</div>
+							<script>
+							$(document).on('click','.myBtn',function(){
+								var myTargetModal = '#' + $(this).data('bid');
+								$('#myModal').hide();
+								$('.modal-content').hide();
+								
+								$('#myModal').fadeIn();
+								$(myTargetModal).fadeIn();
+							});
+
+							$("body" ).on( "click",".close", function() {
+								$('#myModal').hide();
+								$('.modal-content').hide();
+							});
+							</script>
+	</main>
+		    <!--Footer-->
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">The Theatre</h5>
+                    <p class="grey-text text-lighten-4">Use these links to navigate the site</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Menu</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="shows.html">Shows</a></li>
+                        <li><a class="grey-text text-lighten-3" href="about.html">About</a></li>
+                        <li><a class="grey-text text-lighten-3" href="contact.html">Contact</a></li>
+                        <li><a class="grey-text text-lighten-3" href="seating-plan.html">Seating</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                &copy; Group 2 Designs 2018
+            </div>
+        </div>
+    </footer>
+    <!--Load javascript here for efficiency-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
-
 </html>
