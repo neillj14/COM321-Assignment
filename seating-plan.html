@@ -1,13 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
-    <title>Seating - The Theatre</title>
-</head>
-
-<body>
-
-</body>
-
+    <head>
+      <link type="text/css" rel="stylesheet" href="assets/stylesheets/main.css"/>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="assets/stylesheets/materialize.min.css"  media="screen,projection"/>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="utf-8">
+        <title>Seating Plan</title>
+    </head>
+    <body>
+        <!--Top navbar-->
+    <header>
+            <nav>
+                <div class="nav-wrapper black">
+                    <a href="index.html" class="center brand-logo">The Theatre</a>
+                    <a href="#" data-target="mobile-menu" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul id="nav-mobile" class=" right hide-on-med-and-down">
+                        <li class="active">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="shows.html">Shows</a>
+                        </li>
+                        <li>
+                            <a href="seating-plan.html">Seating Plan</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!--Hamburger sidenav for mobile-->
+            <ul id="mobile-menu" class="sidenav">
+                <li class="active">
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="shows.html">Shows</a>
+                </li>
+                <li>
+                    <a href="seating-plan.html">Seating Plan</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </header>
+          <!--Content-->
+    <main>
+            <div id="main-body">
+                <div>
+                    <div class="teaser-section">
+                        <h1 class="center">Seating Plan <br></h1>
+            <div class="seating-plan section">
+                <div class="container">
+                        <img src="assets/images/seatingPlan_website.jpg" width=100%>
+                </div>
+            <div class="more-info section">
+                <div class="container">
+                    <h1 class="text-flow">Where am I going to sit?
+                        <i>
+                        </i>
+                    </h1>
+                    <p class="flow-text">At The Theatre we have 340 seats, if you are having touble with choosing
+                        a seat you can just pick from one of our 3 types of seating, Tier 1, Tier 2 and Tier 3. Check out the seating types below.
+                        </p>
+                </div>
+            </div>
+            <div class="other-pages">
+                <div class="container">
+                    <h3>Tier prices</h3>
+                    <p>Below you can find the different tiers available and the prices for them.</p>
+                    <div class="row">
+                        <div class="col s4">
+                            <a href="booking.html">
+                                <img src="assets/images/tier1Seating.PNG" width=69.07630522088353%>
+                                <h4>Tier 1</h4>
+                                <p>Rows A-D £39.99<br>
+                                   Rows E-H £34.99 
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col s4">
+                            <a href="booking.html">
+                                <img src="assets/images/tier2Seating.PNG" width=69.07630522088353%>
+                                <h4>Tier 2</h4>
+                                <p>Rows J-L £29.99<br>
+                                   Rows M-N £24.99
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col s4">
+                            <a href="booking.html">
+                                <img src="assets/images/tier3Seating.PNG" width=68.07630522088353%>
+                                <h4>Tier 3</h4>
+                                <p>Rows O-P £19.99 <br>
+                                   Rows Q-R £14.99 
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!--Footer-->
+        <footer class="page-footer black">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">The Theatre</h5>
+                        <p class="grey-text text-lighten-4">Use these links to navigate the site</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Menu</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+                            <li><a class="grey-text text-lighten-3" href="about.html">About</a></li>
+                            <li><a class="grey-text text-lighten-3" href="shows.html">Shows</a></li>
+                            <li><a class="grey-text text-lighten-3" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    &copy; Group 2 Designs 2018
+                </div>
+            </div>
+        </footer>
+                <!--Load javascript here for efficiency-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+        <script type="text/javascript" src="assets/js/main.js"></script>
+    </body>
 </html>
